@@ -1,5 +1,5 @@
 let currentYear = new Date().getFullYear();
-document.querySelector("current-year").innerHTML = currentYear;
+document.querySelector("current-year").textContent = currentYear;
 
 let lastModified = document.lastModified;
-document.querySelector("last-modified").innerHTML = lastModified;
+document.querySelector("last-modified").textContent = lastModified;
