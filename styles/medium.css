@@ -13,8 +13,14 @@
         border-radius: 16px;
     }
 
+    header {
+        display: grid;
+        grid-template-columns: auto 25%;
+        grid-template-rows: 7.5em;
+        justify-items: center;
+    }
+
     header img {
-        float: right;
         box-shadow: 5px 5px 5px #D6D5A8;
         border-radius: 8px;
     }
