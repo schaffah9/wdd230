@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     font-size: 100%;
     line-height: 1.5;
@@ -8,12 +10,14 @@ body {
 h1 {
     text-align: center;
     font-size: 2rem;
-    font-family: 'Rubik', Verdana, sans-serif;
+    font-family: 'Lobster', 'Bradley Hand', cursive;
+    letter-spacing: 2px;
 }
 
 h2 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    font-family: 'Rubik', Verdana, sans-serif;
 }
 
 header,
