@@ -12,10 +12,4 @@
     footer {
         border-radius: 16px;
     }
-
-    header img {
-        float: right;
-        box-shadow: 5px 5px 5px #D6D5A8;
-        border-radius: 8px;
-    }
 }
