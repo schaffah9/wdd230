@@ -37,8 +37,24 @@ header img {
     border: 2px solid #D6D5A8;
 }
 
-footer a {
+a:link {
     color: #D6D5A8;
+}
+
+a:visited {
+    color: #AD71E5;
+}
+
+a:active {
+    color: #FF4242;
+}
+
+footer a:visited {
+    color: #D6D5A8;
+}
+
+footer a:active {
+    color: #FF4242;
 }
 
 main {

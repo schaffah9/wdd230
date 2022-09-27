@@ -35,8 +35,28 @@ footer {
     text-align: center;
 }
 
-footer a {
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #AD71E5;
+}
+
+a:active {
+    color: #FF4242;
+}
+
+footer a:link {
     color: #D6D5A8;
+}
+
+footer a:visited {
+    color: #D6D5A8;
+}
+
+footer a:active {
+    color: #FF4242;
 }
 
 main {
@@ -66,6 +86,10 @@ h3 {
     margin: 0;
     padding: 0.75rem;
     background: #816797;
+}
+
+h4 {
+    font-size: 1.1rem;
 }
 
 section div {
