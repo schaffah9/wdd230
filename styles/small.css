@@ -21,6 +21,7 @@ main,
 footer {
     margin: 0 auto;
     max-width: 960px;
+    padding: 1rem;
     color: #D6D5A8;
 }
 
@@ -28,7 +29,6 @@ header,
 footer {
     background-color: #51557E;
     text-align: center;
-    padding: 1rem;
 }
 
 header img {
@@ -37,6 +37,10 @@ header img {
     border: 2px solid #D6D5A8;
 }
 
+footer a {
+    color: #D6D5A8;
+}
+
 main {
-    padding: 1rem;
+    padding: 0 1rem;
 }

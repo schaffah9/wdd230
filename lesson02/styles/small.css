@@ -25,6 +25,7 @@ main,
 footer {
     margin: 1.25rem auto;
     max-width: 960px;
+    padding: 1rem;
     color: #D6D5A8;
 }
 
@@ -32,10 +33,14 @@ header,
 footer {
     background-color: #51557E;
     text-align: center;
-    padding: 1rem;
+}
+
+footer a {
+    color: #D6D5A8;
 }
 
 main {
+    padding: 0 1rem;
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.25rem 0;
