@@ -12,4 +12,21 @@
     footer {
         border-radius: 16px;
     }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .one {
+        grid-column: 1;
+    }
+
+    .two {
+        grid-column: 2;
+    }
+
+    .three {
+        grid-column: span 2;
+        width: 45%;
+    }
 }

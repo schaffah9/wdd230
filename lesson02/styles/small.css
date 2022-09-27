@@ -7,7 +7,7 @@ body {
     background-color: #1B2430;
 }
 
-h1 {
+h1,h3 {
     text-align: center;
     font-size: 2rem;
     font-family: 'Lobster', 'Bradley Hand', cursive;
@@ -24,7 +24,7 @@ header,
 main,
 footer {
     margin: 1.25rem auto;
-    max-width: 720px;
+    max-width: 960px;
     color: #D6D5A8;
 }
 
@@ -33,4 +33,48 @@ footer {
     background-color: #51557E;
     text-align: center;
     padding: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem 0;
+}
+
+main > section {
+    grid-column: 1;
+    width: 90%;
+    max-width: 30rem;
+    justify-self: center;
+}
+
+section {
+    border-radius: 0.75rem;
+    background-color: #51557E;
+    border: 2px solid #816797;
+    overflow: hidden;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0.75rem;
+    background: #816797;
+}
+
+section div {
+    padding: 0 0.75rem;
+}
+
+section div * {
+    font-size: 1.05rem;
+}
+
+section img {
+    display: block;
+    width: calc(100% - 4px);
+    max-width: 27rem;
+    margin: 0 auto;
+    border: 2px solid #816797;
 }

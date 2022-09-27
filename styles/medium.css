@@ -9,6 +9,12 @@
     }
 
     header,
+    main,
+    footer {
+        margin: 1.25rem auto;
+    }
+
+    header,
     footer {
         border-radius: 16px;
     }
@@ -21,6 +27,7 @@
     }
 
     header img {
+        border: none;
         box-shadow: 5px 5px 5px #D6D5A8;
         border-radius: 8px;
     }

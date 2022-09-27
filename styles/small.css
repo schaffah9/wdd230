@@ -19,8 +19,8 @@ h2 {
 header,
 main,
 footer {
-    margin: 1.25rem auto;
-    max-width: 720px;
+    margin: 0 auto;
+    max-width: 960px;
     color: #D6D5A8;
 }
 
@@ -34,4 +34,9 @@ footer {
 header img {
     margin: 1rem;
     width: 180px;
+    border: 2px solid #D6D5A8;
+}
+
+main {
+    padding: 1rem;
 }
