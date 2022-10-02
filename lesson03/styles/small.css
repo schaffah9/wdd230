@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Gemunu+Libre:wght@300&family=Montserrat:wght@400;700&display=swap');
 
 body {
     font-size: 100%;
@@ -67,8 +67,13 @@ header h1 {
     padding: 0 1rem 1rem;
 }
 
+header div h1 {
+    font-family: 'Fjalla One', 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+}
+
 nav {
-	background-color: #333333;
+	background-color: #003B52;
 	margin: 0 auto;
 	max-width: 960px;
 }
@@ -96,12 +101,14 @@ nav ul li a:focus {
 .active {
 	color: #83C442;
     border-bottom: 3px solid #83C442;
+    background-color: #003B52;
 }
 
 main {
+    font-size: 1.1rem;
     margin: 0 auto;
     max-width: 960px;
-    color: #333333;
+    color: #232323;
 }
 
 main > * {
@@ -114,6 +121,8 @@ section img {
 }
 
 section h2 {
+    color: #096D84;
+    font-weight: 700;
     margin: 0.5rem 0;
 }
 
