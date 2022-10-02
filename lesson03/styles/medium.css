@@ -1,4 +1,36 @@
 @media only screen and (min-width: 40em) {
 
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    header,
+    footer {
+        border-radius: 20px;
+    }
     
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+    }
+
+    header div {
+        display: flex;
+        align-items: center;
+    }
+
+    header div h1 {
+        flex: auto;
+    }
+
+    .active {
+        border-bottom: 5px solid #83C442;
+    }
 }

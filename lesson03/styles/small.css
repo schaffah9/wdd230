@@ -10,6 +10,7 @@ h1.main-site-header {
     font-size: 2rem;
     font-family: 'Gemunu Libre', Helvetica, sans-serif;
     letter-spacing: 1.5px;
+    padding: 1rem;
 }
 
 h2.main-site-header {
@@ -100,12 +101,23 @@ nav ul li a:focus {
 main {
     margin: 0 auto;
     max-width: 960px;
-    padding: 1rem;
     color: #333333;
+}
+
+main > * {
+    padding: 0.5rem;
 }
 
 section img {
     width: 100%;
     max-width: 200px;
+}
+
+section h2 {
+    margin: 0.5rem 0;
+}
+
+section p {
+    margin: 0;
 }
 
