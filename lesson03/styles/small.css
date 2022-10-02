@@ -101,7 +101,6 @@ nav ul li a:focus {
 .active {
 	color: #83C442;
     border-bottom: 3px solid #83C442;
-    background-color: #003B52;
 }
 
 main {
@@ -115,9 +114,9 @@ main > * {
     padding: 0.5rem;
 }
 
-section img {
+.logo {
     width: 100%;
-    max-width: 200px;
+    max-width: 240px;
 }
 
 section h2 {
@@ -130,3 +129,7 @@ section p {
     margin: 0;
 }
 
+.colors {
+    width: 100%;
+    max-width: 600px;
+}
