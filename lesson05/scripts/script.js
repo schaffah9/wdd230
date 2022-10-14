@@ -27,3 +27,10 @@ submitButton.addEventListener("click", () => {
 	input.value = "";
 	input.focus();
 });
+
+input.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    submitButton.click();
+  }
+});
