@@ -10,3 +10,11 @@ document.querySelector(".current-year").innerHTML = currentYear;
 
 const lastModified = document.lastModified;
 document.querySelector(".last-modified").innerHTML = lastModified;
+
+function toggleMenu() {
+	document.getElementById("primary-nav").classList.toggle("open");
+	document.getElementById("ham-btn").classList.toggle("open");
+}
+
+const hamburgerButton = document.getElementById("ham-btn");
+hamburgerButton.onclick = toggleMenu;
