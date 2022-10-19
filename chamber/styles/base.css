@@ -21,7 +21,7 @@ header {
 .header-logo {
     grid-column: 1/7;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: 'Fjalla One', 'Montserrat', sans-serif;
     letter-spacing: 1.2px;
     width: 100%;
@@ -165,7 +165,7 @@ main {
     margin: 2px;
     border: 2px solid #232323;
     padding: 8px;
-    background-color: rgba(0, 59, 82, 0.7);
+    background-color: rgba(0, 59, 82, 0.9);
     height: 200px;
 }
 
@@ -192,10 +192,6 @@ footer {
     border: 2px solid #232323;
     text-align: center;
 }
-
-/* footer * {
-    margin: 0.75rem 0;
-} */
 
 .footer-logo {
     display: flex;
