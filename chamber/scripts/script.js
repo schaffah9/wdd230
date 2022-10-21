@@ -20,6 +20,6 @@ const hamburgerButton = document.getElementById("ham-btn");
 hamburgerButton.onclick = toggleMenu;
 
 const banner = document.querySelector(".banner");
-if (currentDate.getDay() <= 5 && currentDate.getDay() > 0) {
+if (currentDate.getDay() <= 2 && currentDate.getDay() > 0) {
 	banner.style.display = "block";
 }
