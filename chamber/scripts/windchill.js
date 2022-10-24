@@ -11,7 +11,7 @@ function windChillC (temperatureF, windSpeedMph) {
         const s = windSpeedMph ** 0.16;
         const windChillF = 35.74 + 0.6215 * t - 35.75 * s + 0.4275 * t * s;
         windChillC = (windChillF - 32) / 1.8;
-        windChillC = windChillC.toFixed(0)
+        windChillC = windChillC.toFixed(1)
     }
     else {windChillC = "N/A"};
     return windChillC;
