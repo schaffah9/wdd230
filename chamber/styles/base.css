@@ -184,6 +184,16 @@ main {
     height: 200px;
 }
 
+.hero {
+    height: auto;
+}
+
+.hero picture img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .spotlights-container {
     display: flex;
     flex-direction: column;
