@@ -61,4 +61,12 @@
     footer {
         margin: 1rem auto 0;
     }
+
+    .image-gallery h3 {
+        font-size: 1.5rem;
+    }
+
+    .image-gallery p {
+        font-size: 1.1rem;
+    }
 }
