@@ -62,6 +62,10 @@
         margin: 1rem auto 0;
     }
 
+    .visits {
+        font-size: 1.1rem;   
+    }
+
     .image-gallery h3 {
         font-size: 1.5rem;
     }

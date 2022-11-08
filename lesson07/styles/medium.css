@@ -9,13 +9,8 @@
     }
 
     header,
-    .content,
     footer {
         border-radius: 16px;
-    }
-
-    .content {
-        width: 480px;
     }
 
 }

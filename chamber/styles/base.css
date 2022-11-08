@@ -257,6 +257,16 @@ footer {
     color: #FFFFFF;
 }
 
+.visits {
+    margin: 0 auto;
+    max-width: 1024px;
+    color: #FFFFFF;
+    background-color: #096D84;
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 0.5rem;
+}
+
 .image-gallery {
     display: grid;
     grid-template-columns: 1fr;
