@@ -352,7 +352,7 @@ select {
 input,
 select,
 textarea {
-    border: 2px solid #096D84;
+    border: 3px solid #096D84;
     border-radius: 8px;
 }
 
@@ -373,8 +373,16 @@ textarea {
     text-align: center;
 }
 
+.join-submit:focus,
+.join-submit:hover {
+    background-color: #003B52;
+    color: yellow;
+    font-weight: bold;
+}
+
 .required {
     color: red;
+    font-weight: bold;
 }
 
 .thank-you {
