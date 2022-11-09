@@ -98,4 +98,34 @@
         border: 4px solid yellow;
         filter: opacity(0.9);
     }
+
+    .join-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .plans-description {
+        order: 1;
+    }
+
+    .join-form {
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    label,
+    input,
+    textarea,
+    select {
+        text-align: left;
+    }
+
+    .join-submit {
+        margin-left: 5.5rem;
+    }
+
+    .thank-you {
+        font-size: 1.1rem;
+    }
 }

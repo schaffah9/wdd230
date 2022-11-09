@@ -295,6 +295,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     margin: 5px;
+    padding: 5px;
 }
 
 .join-container h2,
@@ -345,7 +346,7 @@ select {
     width: 90%;
     display: inline-block;
     color: #232323;
-    text-align: center;
+    text-align: left;
 }
 
 input,
@@ -360,7 +361,7 @@ textarea {
     height: 12rem;
 }
 
-#join-submit {
+.join-submit {
     width: 7.5rem;
     height: 3rem;
     border: none;
@@ -368,9 +369,16 @@ textarea {
     color: #FFFFFF;
     border-radius: 16px;
     margin: 0 0 .5rem;
+    margin-left: -1.5rem;
     text-align: center;
 }
 
 .required {
     color: red;
+}
+
+.thank-you {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
 }

@@ -73,4 +73,24 @@
     .image-gallery p {
         font-size: 1.1rem;
     }
+
+    .plans-description {
+        font-size: 1.1rem;
+    }
+
+    .join-container h2 {
+        font-size: 1.75rem;
+    }
+
+    .join-container h3 {
+        font-size: 1.5rem;
+    }
+
+    .join-form {
+        font-size: 1.1rem;
+    }
+
+    .join-submit {
+        margin-left: 8.5rem;
+    }    
 }

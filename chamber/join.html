@@ -47,89 +47,91 @@
         </nav>
     </header>
     
-    <main class="join-container">
-        <div class="gridbox" id="plandescription">
-            <h2>Membership plans</h2>
-            <h3>Non-Profit Plan</h3>
-            <h4>Free</h3>
-            <ul>
-                <li>For Non-Profit Organizations</li>
-                <li>Stardard Business Trainings</li>
-                <li>Up to 5% discounts</li>
-                <li>Basic Support package</li>
-            </ul>
-            <h3>Bronze Plan</h3>
-            <h4>10 USD / Month</h3>
-            <ul>
-                <li>Standard Business Trainings</li>
-                <li>Up to 10% discounts</li>
-                <li>Basic Advertising package</li>
-                <li>Basic Support package</li>
-            </ul>
-            <h3>Silver Plan</h3>
-            <h4>20 USD / Month</h3>
-            <ul>
-                <li>Exclusive Business Trainings</li>
-                <li>Up to 25% discounts</li>
-                <li>Basic Advertising package</li>
-                <li>Premium Support package</li>
-                <li>Partial Participation on Comitee</li>
-            </ul>
-            <h3>Gold Plan</h3>
-            <h4>50 USD / Month</h3>
-            <ul>
-                <li>Premium Business Trainings</li>
-                <li>Up to 50% discounts</li>
-                <li>Premium Advertising package</li>
-                <li>Premium Support package</li>
-                <li>Full Participation on Comitee</li>
-            </ul>
-        </div>
-        
-        <form class="join-form" method="get" action="thankyou.html" autocomplete>
-            <h2>Join the Chamber</h2>
-            <label>
-                First Name<span class="required">*</span>
-                <input type="text" name="first-name" required autofocus>
-            </label>
-            <label>
-                Last Name<span class="required">*</span>
-                <input type="text" name="last-name" required>
-            </label>
-            <label>
-                Business Position
-                <input type="text" name="position" pattern="[a-zA-z][a-zA-z\-\' ]{7,}">
-            </label>
-            <label>
-                Email<span class="required">*</span>
-                <input type="email" name="email" placeholder="name@email.com" required>
-            </label>
+    <main>
+        <div class="join-container">
+            <div class="plans-description">
+                <h2>Membership Plans</h2>
+                <h3>Non-Profit Plan</h3>
+                <h4>Free</h3>
+                <ul>
+                    <li>For Non-Profit Organizations</li>
+                    <li>Stardard Business Trainings</li>
+                    <li>Up to 5% discounts</li>
+                    <li>Basic Support package</li>
+                </ul>
+                <h3>Bronze Plan</h3>
+                <h4>10 USD / Month</h3>
+                <ul>
+                    <li>Standard Business Trainings</li>
+                    <li>Up to 10% discounts</li>
+                    <li>Basic Advertising package</li>
+                    <li>Basic Support package</li>
+                </ul>
+                <h3>Silver Plan</h3>
+                <h4>20 USD / Month</h3>
+                <ul>
+                    <li>Exclusive Business Trainings</li>
+                    <li>Up to 25% discounts</li>
+                    <li>Basic Advertising package</li>
+                    <li>Premium Support package</li>
+                    <li>Partial Participation on Comitee</li>
+                </ul>
+                <h3>Gold Plan</h3>
+                <h4>50 USD / Month</h3>
+                <ul>
+                    <li>Premium Business Trainings</li>
+                    <li>Up to 50% discounts</li>
+                    <li>Premium Advertising package</li>
+                    <li>Premium Support package</li>
+                    <li>Full Participation on Comitee</li>
+                </ul>
+            </div>
             
-            <label>
-                Phone Number<span class="required">*</span>
-                <input type="tel" name="phone-number" required>
-            </label>
-            <label>
-                Business Name/Title<span class="required">*</span>
-                <input type="text" name="business" required>
-            </label>
-            <label>
-                Membership Level<span class="required">*</span>
-                <select name="membership" required>
-                    <option disabled selected hidden>Select a plan</option>
-                    <option value="NP">Non-profit</option>
-                    <option value="Bronze">Bronze</option>
-                    <option value="Silver">Silver</option>
-                    <option value="Gold">Gold</option>
-                </select>
-            </label>
-            <label for="description">
-                Business Description
-                <textarea maxlength="250" name="description" id="description"></textarea>
-            </label>
-            <input id="date-value" type="hidden" name="date-value">
-            <button id="join-submit" type="submit">Join</button>
-        </form>
+            <form class="join-form" method="get" action="thankyou.html" autocomplete>
+                <h2>Join the Chamber</h2>
+                <label>
+                    First Name<span class="required">*</span>
+                    <input type="text" name="first-name" required autofocus>
+                </label>
+                <label>
+                    Last Name<span class="required">*</span>
+                    <input type="text" name="last-name" required>
+                </label>
+                <label>
+                    Business Position
+                    <input type="text" name="position" pattern="[a-zA-z][a-zA-z\-\' ]{7,}">
+                </label>
+                <label>
+                    Email<span class="required">*</span>
+                    <input type="email" name="email" placeholder="name@email.com" required>
+                </label>
+                
+                <label>
+                    Phone Number<span class="required">*</span>
+                    <input type="tel" name="phone-number" required>
+                </label>
+                <label>
+                    Business Name/Title<span class="required">*</span>
+                    <input type="text" name="business" required>
+                </label>
+                <label>
+                    Membership Level<span class="required">*</span>
+                    <select name="membership" required>
+                        <option disabled selected hidden>Select a plan</option>
+                        <option value="NP">Non-profit</option>
+                        <option value="Bronze">Bronze</option>
+                        <option value="Silver">Silver</option>
+                        <option value="Gold">Gold</option>
+                    </select>
+                </label>
+                <label for="description">
+                    Business Description
+                    <textarea maxlength="250" name="description" id="description"></textarea>
+                </label>
+                <input id="date-value" type="hidden" name="date-value">
+                <button class="join-submit" type="submit">Join</button>
+            </form>
+        </div>
     </main>
     
     <footer>
@@ -152,5 +154,6 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/form-date.js"></script>
 </body>
 </html>
