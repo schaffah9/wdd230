@@ -290,3 +290,87 @@ footer {
 .image-gallery img[data-src] {
     filter: blur(0.2em);
 }
+
+.join-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px;
+}
+
+.join-container h2,
+.join-container h3,
+.join-container h4 {
+    color: #096D84;
+}
+
+.join-container h3 {
+    font-size: 1.25rem;
+}
+
+.join-container h4 {
+    margin-top: -1rem;
+}
+
+.join-container h3:nth-of-type(1) {
+    color: #232323;
+}
+
+.join-container h3:nth-of-type(2) {
+    color: #CD7F32;
+}
+
+.join-container h3:nth-of-type(3) {
+    color: #757575;
+}
+
+.join-container h3:nth-of-type(4) {
+    color: #996515;
+}
+
+.join-form {
+    display: block;
+    text-align: center;
+}
+
+.join-form h2 {
+    text-align: start;
+}
+
+label,
+input,
+textarea,
+main button,
+select {
+    padding: .75rem;
+    width: 90%;
+    display: inline-block;
+    color: #232323;
+    text-align: center;
+}
+
+input,
+select,
+textarea {
+    border: 2px solid #096D84;
+    border-radius: 8px;
+}
+
+textarea {
+    resize: none;
+    height: 12rem;
+}
+
+#join-submit {
+    width: 7.5rem;
+    height: 3rem;
+    border: none;
+    background-color: #096D84;
+    color: #FFFFFF;
+    border-radius: 16px;
+    margin: 0 0 .5rem;
+    text-align: center;
+}
+
+.required {
+    color: red;
+}
