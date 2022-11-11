@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    background-color: #1B2430;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Quintessential', display;
+    letter-spacing: 1.25px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Rubik', Verdana, sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 960px;
+    padding: 1rem;
+    color: #D6D5A8;
+}
+
+header,
+footer {
+    background-color: #51557E;
+    text-align: center;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #AD71E5;
+}
+
+a:active {
+    color: #FF4242;
+}
+
+footer a:link {
+    color: #D6D5A8;
+}
+
+footer a:visited {
+    color: #D6D5A8;
+}
+
+footer a:active {
+    color: #FF4242;
+}
+
+main {
+    padding: 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    margin: .75rem;
+    border: 2px solid #D6D5A8;
+    padding: 0.3rem;
+    text-align: center;
+    background-color: #51557E;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    font-family: 'Quintessential', display;
+    letter-spacing: 1.25px;
+}
+
+section img {
+    max-width: 80%;
+    border: 2px solid #AD71E5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 24px 0px white
+}
