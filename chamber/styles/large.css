@@ -59,7 +59,7 @@
         grid-column: 4;
         grid-row: 1/4;
         flex-direction: column;
-        height: 99%;
+        height: 99.1%;
     }
 
     .spotlight:nth-child(3) {
