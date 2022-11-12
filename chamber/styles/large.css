@@ -34,6 +34,10 @@
         grid-row: 1;
     }
 
+    .event p {
+        font-size: 0.75rem;
+    }
+
     .weather {
         grid-row: 2;
     }
