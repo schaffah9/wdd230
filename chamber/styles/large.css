@@ -55,11 +55,19 @@
         grid-column: 4;
         grid-row: 1/4;
         flex-direction: column;
-        height: 99.1%;
+        height: 99%;
     }
 
-    .spotlights-container :nth-child(3) {
+    .spotlight:nth-child(3) {
         display: block;
+    }
+
+    .spotlight {
+        height: 190px;
+    }
+
+    .spotlight p {
+        font-size: .8rem;
     }
 
     footer {

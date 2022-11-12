@@ -29,6 +29,7 @@
     .join {
         display: block;
         order: 1;
+        text-align: center;
     }
 
     .event,
@@ -43,7 +44,7 @@
     .spotlights-container {
         flex-direction: row;
         align-items: stretch;
-        height: 300px;
+        height: 240px;
     }
 
     .spotlight {
