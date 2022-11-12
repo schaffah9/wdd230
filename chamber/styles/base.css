@@ -188,6 +188,12 @@ main {
     height: 200px;
 }
 
+.box h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
 .hero {
     height: auto;
 }
@@ -198,19 +204,39 @@ main {
     width: 100%;
 }
 
+.news p {
+    margin: .5em 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
 .spotlights-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     padding: 4px;
     color: #FFFFFF;
+    height: 400px;
 }
 
 .spotlight {
     margin: 4px;
     border: 2px solid #FFFFFF;
     padding: 8px;
-    background-color: #096D84;
-    height: 80px;
+    background-color: rgb(255, 255, 255, 0.15);
+    height: 190px;
+    text-align: center;
+}
+
+.spotlight h3 {
+    margin: 0 0 .25em;
+}
+
+.spotlight p {
+    margin: 0;
+    /* font-size: .75rem; */
 }
 
 footer {

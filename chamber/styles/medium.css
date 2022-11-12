@@ -43,6 +43,7 @@
     .spotlights-container {
         flex-direction: row;
         align-items: stretch;
+        height: 300px;
     }
 
     .spotlight {

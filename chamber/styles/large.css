@@ -20,6 +20,10 @@
         margin: 0.5rem;
     }
     
+    /* .box h3 {
+        font-size: 1.25rem;
+    } */
+
     .event,
     .weather,
     .join {
@@ -51,7 +55,7 @@
         grid-column: 4;
         grid-row: 1/4;
         flex-direction: column;
-        height: 100%;
+        height: 99.1%;
     }
 
     .spotlights-container :nth-child(3) {
