@@ -5,7 +5,7 @@ const windSpeed = document.querySelector('.wind-speed');
 const weatherIcon = document.querySelector('.weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=4cc78ee7f99ae471b5d144d07bbe927e'
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-34.660&lon=-58.367&units=metric&appid=4cc78ee7f99ae471b5d144d07bbe927e'
 
 async function apiFetch() {
     try {
