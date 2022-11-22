@@ -42,7 +42,7 @@
             <ul id="primary-nav">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -75,10 +75,13 @@
             <div class="weather box">
                 <h3>Weather</h3>
                 <p>
-                    Condition: Partly Cloudly<br>
-                    Temperature (°C): <span class="temperature">8</span><br>
-                    Wind Speed (km/h): <span class="wind-speed">5</span><br>
-                    Wind Chill (°C): <span class="wind-chill"></span>
+                    <figure>
+                        <img src="" alt="" class="weather-icon" />
+                        <p><span class="temperature"></span> °C</p>
+                        <figcaption></figcaption>
+                    </figure>
+                    Wind Speed: <span class="wind-speed"></span> km/h<br>
+                    Wind Chill: <span class="wind-chill"></span> °C
                 </p>
             </div>
             <div class="join box">
@@ -136,7 +139,9 @@
 
     <footer>
         <div class="footer-logo">
-            <a href="#"><img src="images/logo.webp" alt="Avellaneda Chamber of Commerce logo"></a>
+            <a href="#">
+                <img src="images/logo.webp" alt="Avellaneda Chamber of Commerce logo">
+            </a>
             <h3>Avellaneda Chamber of Commerce</h3>
             <p>
                 Estanislao Zeballos 443 <br>
@@ -154,6 +159,6 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
