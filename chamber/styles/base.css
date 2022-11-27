@@ -492,4 +492,28 @@ textarea {
     padding: 5px;
 }
 
-/* ACA IRÍAN LOS ESTILOS PARA DIRECTORY */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.toggle-btn {
+    width: auto;
+    margin: 1rem;
+    border: none;
+    border-radius: 16px;
+    padding: 1rem;
+    background-color: #096D84;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+.toggle-btn:focus,
+.toggle-btn:hover {
+    background-color: #003B52;
+    color: yellow;
+    font-weight: bold;
+}
