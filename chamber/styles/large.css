@@ -46,6 +46,10 @@
         grid-row: 3;
     }
 
+    .join-btn {
+        width: 90%;
+    }
+
     .hero,
     .news {
         grid-column: 2/4;

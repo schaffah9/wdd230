@@ -80,6 +80,6 @@ function windChillC (temperatureF, windSpeedMph) {
         windChillC = (windChillF - 32) / 1.8;
         windChillC = windChillC.toFixed(1)
     }
-    else {windChillC = "N/A"; console.log('no anda')};
+    else {windChillC = "N/A"};
     return windChillC;
 }
