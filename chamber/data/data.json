@@ -68,7 +68,7 @@
             "url" : "lavirginia.com.ar",
             "img" : "images\\la-virginia-logo.svg",
             "slogan" : "Flavors that comfort",
-            "membership" : "bronze"
+            "membership" : "silver"
         },
         {
             "name" : "Ferrum S.A.",
@@ -85,9 +85,19 @@
             "address" : "Av. Bartolome Mitre 96",
             "phone" : "+54 11 4201-3222",
             "email" : "ventas@informaticasa.com.ar",
-            "url" : "http://www.informaticasa.com.ar/",
+            "url" : "informaticasa.com.ar",
             "img" : "images\\informatica-logo.png",
-            "slogan" : "Medical Information Techonology",
+            "slogan" : "Medical IT",
+            "membership" : "bronze"
+        },
+        {
+            "name" : "American Pack",
+            "address" : "Felipe Aldecoa 621",
+            "phone" : "+54 11 4201-4444",
+            "email" : "ventas@americanpack.com.ar",
+            "url" : "americanpack.com.ar",
+            "img" : "images\\american-pack-logo.png",
+            "slogan" : "We deliver",
             "membership" : "bronze"
         }
     ]

@@ -41,20 +41,21 @@ function displayCompany(company) {
     url.textContent = `🌐 ${company.name} site`;
     url.href = company.url
     
-    logo.setAttribute('src', company.img);
-    logo.setAttribute('alt', `${company.name} logo`);
-    logo.setAttribute('loading', 'lazy');
+    logo.src = company.img;
+    logo.alt = `${company.name} logo`
+    logo.loading = 'lazy'
 
     membership.textContent = `${capitalizeStr(company.membership)} member`
+    membership.style.fontWeight = "bold"
 
     switch (company.membership){
-        case "Bronze":
+        case "bronze":
             membership.style.color = "#CD7F32";
             break;
-        case "Silver":
+        case "silver":
             membership.style.color = "#757575";
             break;
-        case "Gold":
+        case "gold":
             membership.style.color = "#996515";
             break;
     }

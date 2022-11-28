@@ -517,3 +517,63 @@ textarea {
     color: yellow;
     font-weight: bold;
 }
+
+.directory-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.directory-grid section {
+    text-align: center;
+    margin: 8px;
+    border: 2px solid #232323;
+    padding: 0.5rem;
+    box-shadow: 0 0 16px #003B52;
+    color: #232323;
+}
+
+.directory-grid section h3 {
+    margin: 0.5rem 0;
+    color: #096D84;
+    font-size: 1.2rem;
+}
+
+.directory-grid section img {
+    height: 100px;
+}
+
+.directory-grid section p {
+    margin: 0.5rem 0;
+}
+
+.directory-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.directory-list img,
+.directory-list p:nth-of-type(1) {
+    display: none;
+}
+
+.directory-list section {
+    text-align: start;
+    margin: 4px 0;
+    padding: 0.5rem;
+    color: #232323;
+}
+
+.directory-list section:nth-of-type(odd) {
+    background-color: rgb(131, 196, 66, 0.8);
+}
+
+.directory-list section h3 {
+    margin: 0.5rem 0;
+    color: #003B52;
+    font-size: 1.2rem;
+}
+
+.directory-list section p {
+    margin: 0.5rem 0;
+}

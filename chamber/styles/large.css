@@ -108,5 +108,9 @@
 
     .join-submit {
         margin-left: 8.5rem;
-    }    
+    }
+
+    .directory-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
