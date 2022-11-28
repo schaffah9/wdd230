@@ -5,7 +5,7 @@
             "address" : "Almafuerte 565",
             "phone" : "+54 11 4229-7600",
             "email" : "contact@logandtr.com.ar",
-            "url" : "logandtr.com.ar",
+            "url" : "https://logandtr.com.ar",
             "img" : "images\\transport-logo.svg",
             "slogan" : "We make moving easier",
             "membership" : "silver"
@@ -15,7 +15,7 @@
             "address" : "Ing. Marconi 570",
             "phone" : "+54 11 4222-6999",
             "email" : "comm-law@legalmail.net",
-            "url" : "comm-law.legal.net",
+            "url" : "https://comm-law.legal.net",
             "img" : "images\\lawyer-logo.svg",
             "slogan" : "Top-rated, go-to law firm",
             "membership" : "silver"
@@ -25,7 +25,7 @@
             "address" : "12 de Octubre 55",
             "phone" : "+54 11 4001-0700",
             "email" : "mkt-consulting@mail.com",
-            "url" : "mkt-consulting.com.ar",
+            "url" : "https://mkt-consulting.com.ar",
             "img" : "images\\mkt-logo.svg",
             "slogan" : "Build your brand’s voice",
             "membership" : "silver"
@@ -35,7 +35,7 @@
             "address" : "Av. Bartolome Mitre 750",
             "phone" : "+54 11 4201-4133",
             "email" : "informacion@fra.utn.edu.ar",
-            "url" : "fra.utn.edu.ar",
+            "url" : "https://fra.utn.edu.ar",
             "img" : "images\\utn-logo.png",
             "slogan" : "Engineering University",
             "membership" : "non-profit"
@@ -45,7 +45,7 @@
             "address" : "Av. Hipolito Yrigoyen 299",
             "phone" : "0800-444-8484",
             "email" : "atencion_clientes@contactocarrefour.com.ar",
-            "url" : "carrefour.com.ar",
+            "url" : "https://carrefour.com.ar",
             "img" : "images\\carrefour-logo.svg",
             "slogan" : "The lowest price",
             "membership" : "gold"
@@ -55,7 +55,7 @@
             "address" : "España 350",
             "phone" : "+54 11 4229-2400",
             "email" : "info@undav.edu.ar",
-            "url" : "undav.edu.ar",
+            "url" : "https://undav.edu.ar",
             "img" : "images\\undav-logo.png",
             "slogan" : "National University",
             "membership" : "non-profit"
@@ -65,7 +65,7 @@
             "address" : "Gral. Levalle 475",
             "phone" : "+54 11 4201-0784",
             "email" : "info@lavirginia.com.ar",
-            "url" : "lavirginia.com.ar",
+            "url" : "https://lavirginia.com.ar",
             "img" : "images\\la-virginia-logo.svg",
             "slogan" : "Flavors that comfort",
             "membership" : "silver"
@@ -75,7 +75,7 @@
             "address" : "España 496",
             "phone" : "0800-222-2266",
             "email" : "info@ferrum.com",
-            "url" : "ferrum.com",
+            "url" : "https://ferrum.com",
             "img" : "images\\ferrum-logo.png",
             "slogan" : "Supports your projects",
             "membership" : "gold"
@@ -85,7 +85,7 @@
             "address" : "Av. Bartolome Mitre 96",
             "phone" : "+54 11 4201-3222",
             "email" : "ventas@informaticasa.com.ar",
-            "url" : "informaticasa.com.ar",
+            "url" : "https://informaticasa.com.ar",
             "img" : "images\\informatica-logo.png",
             "slogan" : "Medical IT",
             "membership" : "bronze"
@@ -95,7 +95,7 @@
             "address" : "Felipe Aldecoa 621",
             "phone" : "+54 11 4201-4444",
             "email" : "ventas@americanpack.com.ar",
-            "url" : "americanpack.com.ar",
+            "url" : "https://americanpack.com.ar",
             "img" : "images\\american-pack-logo.png",
             "slogan" : "We deliver",
             "membership" : "bronze"
