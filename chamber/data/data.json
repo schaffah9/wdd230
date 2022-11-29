@@ -44,7 +44,7 @@
             "name" : "Carrefour Maxi Avellaneda",
             "address" : "Av. Hipolito Yrigoyen 299",
             "phone" : "0800-444-8484",
-            "email" : "atencion_clientes@contactocarrefour.com.ar",
+            "email" : "atencion_clientes@carrefour.com.ar",
             "url" : "https://carrefour.com.ar",
             "img" : "images\\carrefour-logo.svg",
             "slogan" : "The lowest price",
@@ -87,7 +87,7 @@
             "email" : "ventas@informaticasa.com.ar",
             "url" : "https://informaticasa.com.ar",
             "img" : "images\\informatica-logo.png",
-            "slogan" : "Medical IT",
+            "slogan" : "Medical IT solutions",
             "membership" : "bronze"
         },
         {
