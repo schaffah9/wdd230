@@ -364,6 +364,10 @@ footer {
     margin: 0;
 }
 
+.contact-info a {
+    text-decoration: none;
+}
+
 .web-info {
     margin-top: 1rem;
     padding: 8px;
