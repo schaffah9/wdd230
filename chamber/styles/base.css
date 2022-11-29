@@ -595,3 +595,52 @@ textarea {
 .directory-list section p {
     margin: 0.5rem 0;
 }
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px;
+    padding: 5px;
+    gap: 8px;
+}
+
+.contact-container h2,
+.contact-container h3 {
+    color: #096D84;
+    margin: 0.5em 0;
+}
+
+.info {
+    display: inherit;
+}
+
+iframe {
+    display: block;
+    width: 95%;
+    justify-self: center;
+}
+
+fieldset {
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-submit {
+    width: 7.5rem;
+    height: 3rem;
+    border: none;
+    background-color: #096D84;
+    color: #FFFFFF;
+    border-radius: 16px;
+    margin: 0 0 .5rem;
+    margin-left: -1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact-submit:focus,
+.contact-submit:hover {
+    background-color: #003B52;
+    color: yellow;
+    font-weight: bold;
+}

@@ -149,4 +149,24 @@
         gap: 6px;
         align-items: center;
     }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    iframe {
+        width: 400px;
+    }
+
+    .contact-form {
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 32px;
+    }
+
+    .info *{
+        margin: 0.2em 0;
+    }
 }
