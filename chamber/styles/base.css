@@ -224,6 +224,20 @@ main {
     width: 100%;
 }
 
+.hero h3 {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    margin: 0;
+    padding: 0.5rem;
+    width: 80%;
+    border: 1px solid #232323;
+    border-radius: 16px;
+    color: #232323;
+    background-color: rgb(131, 196, 66, 0.75);
+    text-align: center;
+}
+
 .hero .join-btn {
     position: absolute;
     bottom: 18px;

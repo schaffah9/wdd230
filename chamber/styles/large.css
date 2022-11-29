@@ -59,6 +59,12 @@
         grid-row: 1/3;
     }
 
+    .hero h3 {
+        width: 80%;
+        top: 18px;
+        left: 18px;
+    }
+
     .spotlights-container {
         grid-column: 4;
         grid-row: 1/4;

@@ -26,6 +26,10 @@
         grid-column: 1/4;
     }    
     
+    .hero h3 {
+        width: 40%;
+    }
+
     .join {
         display: block;
         order: 1;
