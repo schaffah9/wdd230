@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 Chamber of Commerce Project Home Page">
+    <title>Avellaneda Chamber of Commerce | Home Page</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@400;700&display=swap' rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <div class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    <header>
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/logo.webp" alt="Avellaneda Chamber of Commerce logo">
+            </a>
+            <div>
+                <h1>Avellaneda</h1>
+                <h2>Chamber of Commerce</h2>   
+            </div>
+        </div>
+        <button id="ham-btn"><span>&#9776;</span><span>X</span></button>
+        <div class="date"></div>
+        <div class="social ">
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/icons8-facebook-50.png" alt="Facebook logo">
+            </a>
+            <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/icons8-twitter-squared-50.png" alt="Twitter logo">
+            </a>
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/icons8-linkedin-50.png" alt="LinkedIn logo">
+            </a>
+        </div>
+        <nav>
+            <ul id="primary-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="hero box">
+                <picture>
+                    <source media="(min-width: 960px)" srcset="images/wdd230-org-large.jpg">
+                    <source media="(min-width: 640px)" srcset="images/wdd230-org-medium.jpg">
+                    <source media="(min-width: 425px)" srcset="images/wdd230-org-small-L.jpg">
+                    <source media="(min-width: 375px)" srcset="images/wdd230-org-small-M.jpg">
+                    <source media="(min-width: 320px)" srcset="images/wdd230-org-small-S.jpg">
+                    <img src="images/wdd230-org-small.jpg" alt="Hero image">
+                </picture>
+                <h3>Welcome to Avellaneda!</h3>
+                <a href="/chamber/join.html">
+                    <button class="join-btn">Join the Chamber</button>
+                </a>
+            </div>
+            <div class="event box">
+                <h3>Grand Opening</h3>
+                <img 
+                    src="images/office-logo.svg" 
+                    alt="Office Logo"
+                    height="80px">
+                <p>Join us fot the grand opening of the Piñeyro Building new Office Space, Tuesday at 2 p.m. <a href="#">more info...</a></p>
+            </div>
+            <div class="weather box">
+                <h3>Weather</h3>
+                <p>
+                    <figure>
+                        <img src="" alt="" class="weather-icon" />
+                        <p><span class="temperature"></span> °C</p>
+                        <figcaption></figcaption>
+                    </figure>
+                    Wind Speed: <span class="wind-speed"></span> km/h<br>
+                    Wind Chill: <span class="wind-chill"></span> °C
+                </p>
+            </div>
+            <div class="join box">
+                <a href="/chamber/join.html">
+                    <button class="join-btn"><h3>Join Us!</h3></button>
+                </a>
+                <p>Discover how to join the Avellaneda Chamber of Commercer and how it will benefit your organization!</p>
+            </div>
+            <div class="news box">
+                <h3>News Release</h3>
+                <p>
+                    March 19th - Racing Club achieved an agonizing 2-1 away win over Independiente in a new edition of the Avellaneda Derby to remain as the sole leader of Group A of the Argentine Professional Football League Cup.
+                    <br>
+                    In the closing of Saturday's interzonal day of the classics, the team led by Fernando Gago won with goals by Gabriel Hauche and Enzo Copetti, while Lucas González had scored the temporary equalizer for the "Rojo".
+                </p>
+            </div>
+            <div class="spotlights-container box"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <a href="#">
+                <img src="images/logo.webp" alt="Avellaneda Chamber of Commerce logo">
+            </a>
+            <h3>Avellaneda Chamber of Commerce</h3>
+            <p>
+                Estanislao Zeballos 443 <br>
+                Avellaneda, Buenos Aires, Argentina
+            </p>
+        </div>
+        <div class="contact-info">
+            <p>commerce@avellaneda.gov.ar</p>
+            <p>+(54) 11 5996-1697</p>
+            <a href="https://goo.gl/maps/76cmQL6XucaM5iAq7" target="_blank">📍Location Map</a>
+        </div>
+        <div class="web-info">
+            &copy;<span class="current-year"></span> Avellaneda Chamber | <strong>Julian Schaffhauser</strong> | WDD 230 Project | <br>
+            Last Updated: <span class="last-modified"></span>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlights.js"></script>
+</body>
+</html>
