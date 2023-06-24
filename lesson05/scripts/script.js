@@ -11,21 +11,24 @@ const submitButton = document.querySelector("button");
 const list = document.querySelector("ul");
 
 submitButton.addEventListener("click", () => {
-	const listItem = document.createElement("li");
-	const deleteButton = document.createElement("button");
+	let value = input.value.trim()
+	if (value.length > 0) {
+		const listItem = document.createElement("li");
+		const deleteButton = document.createElement("button");
 
-	listItem.textContent = input.value;
-	deleteButton.textContent = "❌";
+		listItem.textContent = value;
+		deleteButton.textContent = "❌";
 
-	listItem.append(deleteButton);
-	list.append(listItem);
+		listItem.append(deleteButton);
+		list.append(listItem);
 
-	deleteButton.addEventListener("click", () => {
-		list.removeChild(listItem);
-	});
+		deleteButton.addEventListener("click", () => {
+			list.removeChild(listItem);
+		});
 
-	input.value = "";
-	input.focus();
+		input.value = "";
+		input.focus();
+	}
 });
 
 input.addEventListener("keypress", (event) => {
